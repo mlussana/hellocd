@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HellocdApplication {
 
 
-	@RequestMapping("/hellocd")
+	@RequestMapping("/")
 	String home() {
 		return "Hello Continuous Delivery!";
 	}
